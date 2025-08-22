@@ -1,18 +1,10 @@
-<!-- Coloque a imagem em assets/img/preview.webp (recomendado) 
-     e/ou assets/img/preview.png como fallback -->
+<h1 align="center">Portfólio — Gustavo Zatti</h1>
 
 <p align="center">
   <picture>
     <source srcset="assets/img/preview.png" type="image/webp">
     <img src="assets/img/preview.png" alt="Preview do Portfólio de Gustavo Zatti" width="100%">
   </picture>
-</p>
-
-<h1 align="center">Portfólio — Gustavo Zatti</h1>
-
-<p align="center">
-Portfólio pessoal com meus projetos, habilidades e formas de contato.  
-Foco em **clean UI**, **responsividade** e **performance**, publicado via <b>GitHub Pages</b>.
 </p>
 
 ---
@@ -24,8 +16,6 @@ Foco em **clean UI**, **responsividade** e **performance**, publicado via <b>Git
 - **Sobre mim** (Curitiba — PR) e objetivos profissionais
 - **Contato direto** por WhatsApp com mensagem pré-preenchida
 - **Botão de download do currículo** no topo do site
-
-> Dica: a prévia acima (imagem) ajuda quem visita o repositório a entender rapidamente o visual do site.
 
 ---
 

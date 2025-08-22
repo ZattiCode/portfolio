@@ -32,8 +32,7 @@
 - **🌐 Site:** https://zatticode.github.io/portfolio  
 - **💬 WhatsApp:**  
   [Abrir conversa](https://wa.me/5541997155243?text=Ol%C3%A1%2C%20Gustavo%21%20Vim%20pelo%20seu%20Portf%C3%B3lio.)
-- **⬇️ Currículo:**
-  [Currículo](assets/cv/Dev-Gustavo-Zatti.pdf)
+- **⬇️ Dê uma olhada no meu**[Currículo](assets/cv/Dev-Gustavo-Zatti.pdf)
 ---
 
 ## 🤝 Contribuições

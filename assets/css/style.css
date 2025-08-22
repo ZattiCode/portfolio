@@ -162,7 +162,7 @@ a { color: inherit; text-decoration: none; }
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 1.1fr .9fr;               /* texto | foto */
+  grid-template-columns: 1.1fr .9fr;
   grid-template-areas:
     "content art"
     "badges  badges";
@@ -182,7 +182,8 @@ a { color: inherit; text-decoration: none; }
 }
 
 .hero .title span { 
-  background: linear-gradient(90deg, var(--brand), var(--brand-2)); -webkit-background-clip: text; 
+  background: linear-gradient(90deg, var(--brand), var(--brand-2)); 
+  -webkit-background-clip: text; 
   background-clip: text; 
   color: transparent; 
 }
@@ -531,7 +532,6 @@ a { color: inherit; text-decoration: none; }
 }
 
 /*CONTATO*/
-/* Contato */
 #contato {
   text-align: start;
   margin-top: 50px;
@@ -589,7 +589,7 @@ a { color: inherit; text-decoration: none; }
   color: #000;
 }
 
-/* Botão de currículo no nav */
+/* Btn currículo nav */
 .menu .btn-cv{
   display:inline-flex;
   align-items:center;
@@ -610,7 +610,7 @@ a { color: inherit; text-decoration: none; }
   background:linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.04));
 }
 
-/* mobile: ocupa a linha direitinho no menu aberto */
+/* mobile */
 @media (max-width:720px){
   .menu .btn-cv{
     justify-content:center;

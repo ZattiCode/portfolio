@@ -3,21 +3,12 @@
 
 <p align="center">
   <picture>
-    <source srcset="assets/img/preview.webp" type="image/webp">
+    <source srcset="assets/img/preview.png" type="image/webp">
     <img src="assets/img/preview.png" alt="Preview do Portfólio de Gustavo Zatti" width="100%">
   </picture>
 </p>
 
 <h1 align="center">Portfólio — Gustavo Zatti</h1>
-
-<p align="center">
-  <a href="https://zatticode.github.io/portfolio">
-    <img src="https://img.shields.io/badge/Ver%20online-https%3A%2F%2Fzatticode.github.io%2Fportfolio-00C853?style=for-the-badge">
-  </a>
-  <img src="https://img.shields.io/badge/HTML-5-E34F26?logo=html5&logoColor=white&style=for-the-badge">
-  <img src="https://img.shields.io/badge/CSS-3-1572B6?logo=css3&logoColor=white&style=for-the-badge">
-  <img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=111&style=for-the-badge">
-</p>
 
 <p align="center">
 Portfólio pessoal com meus projetos, habilidades e formas de contato.  

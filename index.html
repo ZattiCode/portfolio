@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gustavo Zatti — Portfólio</title>
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Playfair+Display:wght@600;800&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <!-- Styles -->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+
+<body>
+  <a class="skip" href="#projetos">Pular para projetos</a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#" class="logo" aria-label="Início">GZ</a>
+      <button class="nav-toggle" aria-label="Abrir menu"><i class="ri-menu-line"></i></button>
+      <nav class="menu" aria-label="Primário">
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#formacao">Formação</a>
+        <a href="#contato">Contato</a>
+        <a class="btn-cv" href="/assets/cv/Dev-Gustavo-Zatti.pdf" download aria-label="Baixar currículo em PDF">
+          <i class="ri-download-2-line" aria-hidden="true"></i>
+          <span>Currículo</span>
+        </a>
+
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" aria-label="Apresentação">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="local">Curitiba — PR</p>
+          <h1 class="title">Desenvolvedor <br><span>Full Stack</span></h1>
+          <p class="tagline">
+            Desenvolvedor formado em ADS, foco em Front-end/UX com base em Back-end (React, TS, Tailwind, Node, SQL).
+            Estudo contínuo aplicado em projetos reais — resgate aéreo, presença digital e finanças.
+          </p>
+          <div class="cta">
+            <a class="btn" href="#projetos">Ver projetos</a>
+          </div>
+          <!-- ❌ Remover as badges daqui -->
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="photo-wrap">
+            <img src="assets/img/eu.png" alt="Foto do Gustavo Zatti" />
+            <div class="dots"></div>
+            <div class="glow"></div>
+          </div>
+        </div>
+
+        <!-- ✅ Novo: badges como faixa inferior (span 2 colunas) -->
+        <ul class="hero-badges" aria-label="Tecnologias principais">
+          <li><i class="devicon-react-original"></i> React</li>
+          <li><i class="devicon-javascript-plain"></i> JavaScript</li>
+          <li><i class="devicon-figma-plain"></i> Figma</li>
+          <li><i class="devicon-nodejs-plain"></i> Node</li>
+          <li><i class="ri-database-2-line" aria-hidden="true"></i> SQL</li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- SOBRE -->
+    <section id="sobre" class="sobre-section section">
+      <div class="container cards-3 reveal">
+        <article class="card">
+          <h3><i class="devicon-vscode-plain"></i> Linguagens & Stack</h3>
+          <p>HTML, CSS, JS/TS, React, Node/Express, SQL.</p>
+          <br>
+          <p>Boas práticas, acessibilidade e performance.</p>
+        </article>
+        <article class="card">
+          <h3><i class="ri-quill-pen-line"></i> Fluxo de trabalho</h3>
+          <p>Design → Protótipo → Código</p>
+          <br>
+          <p>Git flow simples e claro</p>
+          <p>Documentação objetiva</p>
+          <p>Feedbacks rápidos e interativos</p>
+          </p>
+        </article>
+        <article class="card accent">
+          <h3><i class="ri-rocket-2-line"></i> Bora conversar?</h3>
+          <p>Aberto a freelas e oportunidades. Vamos tirar sua ideia do papel com qualidade e prazo.</p>
+          <a class="btn small" href="#contato">Vamos conversar</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="project-section section">
+      <div class="container">
+        <header class="section-head">
+          <h2>Projetos</h2>
+          <p>Prévias com troca ao passar o mouse. Tecnologias e links logo abaixo.</p>
+        </header>
+
+        <ul class="grid-projects reveal">
+          <!-- CARD 1 -->
+          <li class="project-card" data-hover="assets/img/proj1b.jpg">
+            <div class="card-img">
+              <img src="assets/img/proj1a.jpg" alt="Preview do projeto 1" />
+            </div>
+            <div class="card-body">
+              <h3>Bikcraft</h3>
+              <p>Landing page responsiva de bicicletas, feita em HTML5 + CSS3 com foco em performance.</p>
+              <ul class="badges">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="actions">
+                <a class="btn small" href="https://zatticode.github.io/bikcraft" target="_blank" rel="noreferrer">Ver demo</a>
+                <a class="btn ghost small" href="https://github.com/ZattiCode/bikcraft" target="_blank" rel="noreferrer">Código</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- CARD 2 -->
+          <li class="project-card" data-hover="assets/img/proj2b.jpg">
+            <div class="card-img">
+              <img src="assets/img/proj2a.jpg" alt="Preview do projeto 2" />
+            </div>
+            <div class="card-body">
+              <h3>Wildbeast</h3>
+              <p>Site responsivo em CSS Grid com áreas nomeadas, tipografia clara e conteúdo organizado.</p>
+              <ul class="badges">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="actions">
+                <a class="btn small" href="https://zatticode.github.io/wildbeast" target="_blank" rel="noreferrer">Ver demo</a>
+                <a class="btn ghost small" href="https://github.com/ZattiCode/wildbeast" target="_blank" rel="noreferrer">Código</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- CARD 3 -->
+          <li class="project-card" data-hover="assets/img/proj3b.jpg">
+            <div class="card-img">
+              <img src="assets/img/proj3a.jpg" alt="Preview do projeto 3" />
+            </div>
+            <div class="card-body">
+              <h3>Zatti Ambientes Planejados</h3>
+              <p>Website institucional otimizado para SEO e performance.</p>
+              <ul class="badges">
+                <li>React</li>
+                <li>Tailwind</li>
+                <li>JavaScript</li>
+                <li>Figma</li>
+              </ul>
+              <div class="actions">
+                <a class="btn small" href="https://www.zattiambientes.com.br/" target="_blank" rel="noreferrer">Ver website</a>
+                <a class="btn ghost small" href="#projetos" target="_blank" rel="noreferrer">Privado</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- CARD 4 -->
+          <li class="project-card" data-hover="assets/img/proj4b.jpg">
+            <div class="card-img">
+              <img src="assets/img/proj4a.jpg" alt="Preview do projeto 2" />
+            </div>
+            <div class="card-body">
+              <h3>Animais Fantásticos</h3>
+              <p>Projeto didático em JS ES6 com DOM dinâmico (accordion, tabs, modal, animações de scroll).</p>
+              <ul class="badges">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="actions">
+                <a class="btn small" href="https://zatticode.github.io/animais-fantasticos" target="_blank" rel="noreferrer">Ver demo</a>
+                <a class="btn ghost small" href="https://github.com/ZattiCode/animais-fantasticos" target="_blank" rel="noreferrer">Código</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- CARD 5 -->
+          <li class="project-card" data-hover="assets/img/proj5b.jpg">
+            <div class="card-img">
+              <img src="assets/img/proj5a.jpg" alt="Preview do projeto 2" />
+            </div>
+            <div class="card-body">
+              <h3>Quadro de mensagens</h3>
+              <p>Mural interativo de mensagens em Node.js/Express com persistência em banco de dados.</p>
+              <ul class="badges">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Node.js</li>
+              </ul>
+              <div class="actions">
+                <a class="btn small" href="https://messageboard-production-ff7b.up.railway.app" target="_blank" rel="noreferrer">Ver demo</a>
+                <a class="btn ghost small" href="https://github.com/ZattiCode/Message_Board" target="_blank" rel="noreferrer">Código</a>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="skills" class="section reveal">
+      <div class="container reveal">
+        <header class="section-head">
+          <h2>Habilidades</h2>
+          <p>Separadas por linguagens e ferramentas.</p>
+        </header>
+
+        <div class="skills-grid">
+          <div>
+            <h3>Linguagens & Front</h3>
+            <ul class="pill-list">
+              <li><i class="devicon-html5-plain"></i> HTML</li>
+              <li><i class="devicon-css3-plain"></i> CSS</li>
+              <li><i class="devicon-javascript-plain"></i> JavaScript</li>
+              <li><i class="devicon-typescript-plain"></i> TypeScript</li>
+              <li><i class="ri-reactjs-line"></i> React</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Back-end</h3>
+            <ul class="pill-list">
+              <li><i class="devicon-nodejs-plain"></i> Nodejs</li>
+              <li><i class="ri-database-2-line"></i> SQL</li>
+              <li><i class="devicon-python-plain"></i> Python</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Ferramentas</h3>
+            <ul class="pill-list">
+              <li><i class="devicon-tailwindcss-original"></i> Tailwind</li>
+              <li><i class="devicon-git-plain"></i><i class="devicon-github-original"></i> Git/GitHub</li>
+              <li><i class="devicon-figma-plain"></i> Figma</li>
+              <li><i class="ri-flashlight-line"></i> Vite</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMAÇÃO -->
+    <section id="formacao" class="formacao section">
+      <div class="container reveal">
+        <header class="section-head">
+          <h2>Formação & Estudos</h2>
+        </header>
+
+        <div class="formacao-grid">
+          <article class="card">
+            <h3><i class="ri-graduation-cap-line"></i> Faculdade</h3>
+            <p>Univesidade Positivo - Análise e Desenvolvimento de Sistemas.</p>
+          </article>
+          <article class="card">
+            <h3><i class="ri-translate-2"></i> Inglês</h3>
+            <p>Influx São Braz - Avançado C1</p>
+          </article>
+          <article class="card wide">
+            <h3><i class="ri-terminal-line"></i> Origamid Front End UX/UI Design</h3>
+            <div class="origamid">
+              <div>
+                <h4>Concluídos</h4>
+                <ul>
+                  <li>HTML and CSS for beginners - 46h</li>
+                  <li>CSS Flexbox/Grid Layout - 8h</li>
+                  <li>UI Design for beginners - 16h</li>
+                  <li>JavaScript ES6 Course - 74h</li>
+                  <li>JavaScript and jQuery - 18h</li>
+                  <li>TailWind CSS - 8h</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Em andamento</h4>
+                <ul>
+                  <li>TypeScript for beginners - 11h</li>
+                  <li>Advanced UI Design - 15h</li>
+                  <li>React Complete - 18h</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <h3><i class="ri-code-view"></i> Udemy</h3>
+            <p>Algoritmos e Lógica de Programação 2022 - O Curso Completo - 30h</p>
+          </article>
+          <article class="card">
+            <h3><i class="ri-rss-line"></i> Cisco Networking Academy</h3>
+            <p>CCNAv7: Introduction to Networks - 70h</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="contato section">
+      <div class="container reveal">
+        <header class="section-head">
+          <h2>Contato</h2>
+        </header>
+
+        <!-- Ícones de redes sociais -->
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/gustavozatti" target="_blank"><i class="ri-linkedin-fill"></i></a>
+          <a href="https://github.com/zatticode" target="_blank"><i class="ri-github-fill"></i></a>
+          <a href="https://instagram.com/gustavozatti.png" target="_blank"><i class="ri-instagram-line"></i></a>
+          <a href="https://wa.me/5541997155243?text=Ol%C3%A1%2C%20Gustavo%21%20Vim%20pelo%20seu%20Portf%C3%B3lio." target="_blank" rel="noreferrer"><i class="ri-whatsapp-line"></i></a>
+        </div>
+
+        <!-- Contatos diretos -->
+        <div class="contact-info">
+          <p><i class="ri-mail-line"></i> devgustavozatti@gmail.com</p>
+          <p><i class="ri-phone-line"></i> +55 41 997155243</p>
+        </div>
+
+        <!-- Botão -->
+        <div class="contact-btn">
+          <a href="mailto:devgustavozatti@gmail.com">Vamos trabalhar juntos!</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Gustavo Zatti. Todos os direitos reservados. 🤠</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/assets/js/script.js"></script>
+</body>
+
+</html>

@@ -45,3 +45,4 @@ const io = new IntersectionObserver((entries) => {
 }, { rootMargin: '0px 0px -10% 0px' });
 
 for (const el of document.querySelectorAll('.reveal')) io.observe(el);
+

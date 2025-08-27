@@ -12,13 +12,16 @@
   --radius: 18px;
   --radius-sm: 12px;
   --container: 1120px;
+  --ff-body: "Manrope", Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --ff-display: "Fraunces", "Playfair Display", serif;
+  --ff-label: "Rubik", system-ui, sans-serif;
 }
 
 * { box-sizing: border-box; }
 html, body { height: 100%; }
 body {
   margin: 0;
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+   font-family: var(--ff-body);
   color: var(--text);
   background: transparent;
 }
@@ -50,7 +53,7 @@ a { color: inherit; text-decoration: none; }
 }
 
 .section-head h2 { 
-  font: 800 36px/1.1 "Playfair Display", serif; 
+   font: 800 36px/1.1 var(--ff-display); 
   letter-spacing: .2px; 
   margin: 0 0 8px; 
 }
@@ -232,6 +235,7 @@ a { color: inherit; text-decoration: none; }
   background: var(--bg-soft); 
   border-radius: 999px; 
 }
+
 
 .hero-art .photo-wrap { 
   height: 420px;
@@ -664,6 +668,8 @@ a { color: inherit; text-decoration: none; }
   position: relative;
   overflow: hidden;
   color: #fff;
+  background-color: rgba(11,13,16,.35);
+  backdrop-filter: blur(10px);
 }
 
 .btn.shiny::before {
@@ -676,7 +682,7 @@ a { color: inherit; text-decoration: none; }
   background: linear-gradient(
     120deg,
     transparent,
-    rgba(255,255,255,0.6),
+    rgba(255,255,255,0.2),
     transparent
   );
   transform: skewX(-25deg);

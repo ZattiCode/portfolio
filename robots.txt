@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zatticode.github.io/portfolio/sitemap.xml
